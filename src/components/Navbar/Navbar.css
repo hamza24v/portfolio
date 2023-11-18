@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #003366; /* Dark blue color */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* subtle shadow for depth */
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 30px;
+  }
+  
+  .nav-link {
+    color: white; /* Light color for contrast */
+    text-decoration: none; /* Removes underline from links */
+    padding: 5px 10px;
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .nav-link:hover, .nav-link:focus {
+    color: #003366; /* Dark blue color on hover/focus */
+    background-color: white; /* White background on hover/focus */
+    border-radius: 5px; /* Optional: adds rounded corners to the hover/focus background */
+  }
+  
